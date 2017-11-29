@@ -17,7 +17,6 @@ def main():
     """ Calls the   TEST   functions in this module. """
     run_test_sum_of_digits()
     run_test_digits_in_cube()
-    digits_in_cube(5)
     run_test_digits_in_power()
     run_test_fancy_sums_of_digits()
 
@@ -128,7 +127,7 @@ def sum_of_digits(number):
 def run_test_digits_in_cube():
     """ Tests the   digits_in_cube   function. """
     # ------------------------------------------------------------------
-    # Done: 3. Implement this function.
+    # TODO: 3. Implement this function.
     #   It TESTS the  digits_in_cube  function defined below.
     #   Include at least **   3   ** tests.
     #
@@ -153,6 +152,10 @@ def run_test_digits_in_cube():
     print('Testing the   digits_in_cube   function:')
     print('-----------------------------------------------------')
 
+    digits_in_cube(3)
+    digits_in_cube(5)
+    digits_in_cube(6)
+
 
 def digits_in_cube(n):
     """
@@ -163,23 +166,10 @@ def digits_in_cube(n):
       If the integer (n) is 5    (so n cubed is 125),
       this function returns (1 + 2 + 5), which is 8.
     """
-
-    expected = 8
+    #expected = answer
     answer = sum_of_digits(n ** 3)
-    print('Expected:', expected)
+    #print('Expected:', expected)
     print('Answer:  ', answer)
-
-    expected1 = 9
-    answer1 = sum_of_digits(6 ** 3)   # 8 ** 3 = 512
-    print(' ')
-    print('Expected:', expected1)
-    print('Answer:  ', answer1)
-
-    expected2 = 9
-    answer2 = sum_of_digits(3 **3)
-    print('  ')
-    print('Expected:', expected2)
-    print('Answer:  ', answer2)
 
 
     # ------------------------------------------------------------------
