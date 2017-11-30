@@ -171,9 +171,9 @@ def run_test_even_better_draw_circles():
     even_better_draw_circles(radius, center, number)
 
 def even_better_draw_circles(radius, center, number):
+
     window = rg.RoseWindow()
     for k in range(number):
-
         circle = rg.Circle(center, k * radius)
         circle.attach_to(window)
         window.render(0.25)
