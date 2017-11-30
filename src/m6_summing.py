@@ -9,6 +9,7 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
 
 import math
 
+
 def main():
     """ Calls the   TEST   functions in this module. """
     run_test_sum_cosines()
@@ -65,8 +66,6 @@ def sum_cosines(n):
         x = x + math.cos(k)
 
     return(x)
-
-
     # ------------------------------------------------------------------
     # Done: 3. Implement and test this function.
     #   Note that you should write its TEST function first (above).
@@ -135,9 +134,10 @@ def sum_square_roots(n):
 
     x = 0
     for k in range(n):
-        x = x + math.sqrt(2 * (k +1))
+        x = x + math.sqrt(2 * (k + 1))
 
     return(x)
+
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.

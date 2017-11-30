@@ -12,6 +12,7 @@ Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
 import rosegraphics as rg
 import math
 
+
 def main():
     """ Calls the other functions to demonstrate and/or test them. """
     # Test your functions by putting calls to them here:
@@ -24,6 +25,7 @@ def main():
     draw_circles3()
     print_cosines()
     draw_cosines_and_sines()
+
 
 def print_sequence1():
     """
@@ -79,6 +81,7 @@ def draw_circles1():
         window.render(.25)
 
     window.close_on_mouse_click()
+
 
 def print_sequence2():
     """
@@ -270,5 +273,7 @@ def draw_cosines_and_sines():
 # If this module is running at the top level (as opposed to being
 # imported by another module), then call the 'main' function.
 # ----------------------------------------------------------------------
+
+
 if __name__ == '__main__':
     main()

@@ -154,13 +154,13 @@ def run_test_even_better_draw_circles():
 
     # Test 1
     radius = 10
-    center = rg.Point(100,150)
+    center = rg.Point(100, 150)
     number = 5
     even_better_draw_circles(radius, center, number)
 
     # Test 2
     radius = 15
-    center = rg.Point(30,45)
+    center = rg.Point(30, 45)
     number = 10
     even_better_draw_circles(radius, center, number)
 
@@ -169,6 +169,7 @@ def run_test_even_better_draw_circles():
     center = rg.Point(300, 200)
     number = 15
     even_better_draw_circles(radius, center, number)
+
 
 def even_better_draw_circles(radius, center, number):
 
@@ -183,4 +184,5 @@ def even_better_draw_circles(radius, center, number):
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
 # ----------------------------------------------------------------------
+
 main()

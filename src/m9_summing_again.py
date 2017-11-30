@@ -71,10 +71,7 @@ def sum_powers(n, p):
     x = 0
     for k in range(n):
         x = x + ((k + 1) * p)
-
     return(x)
-
-
 
 
 def run_test_sum_powers_in_range():
@@ -140,4 +137,6 @@ def sum_powers_in_range(m, n, p):
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
 # ----------------------------------------------------------------------
+
+
 main()
