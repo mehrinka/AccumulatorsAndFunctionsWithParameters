@@ -10,9 +10,9 @@ import rosegraphics as rg
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    #run_test_draw_circles()
+    run_test_draw_circles()
     # Un-comment the next lines when you are ready to use them.
-    #run_test_better_draw_circles()
+    run_test_better_draw_circles()
     run_test_even_better_draw_circles()
 
 
